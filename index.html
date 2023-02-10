@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Главная</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="logo">
+                <a href="#" class="logo__link">
+                    <img class="logo__img" src="./img/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <a href="#" class="menu__link menu__link_active">Главная</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#" class="menu__link menu__link_active">Меню</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#" class="menu__link menu__link_active">Афиша</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#" class="menu__link menu__link_active">Сотрудничество</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#" class="menu__link menu__link_active">Галерея</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#" class="menu__link menu__link_active">Новости</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="button">
+                    <div class="button__border">
+                        <p class="button__txt">БРОНИРОВАНИЕ</p>
+                    </div>
+            </button>
+        </div>
+    </div>
+</header>
+<section class="announcement">
+    <div class="container">
+        <div class="announcement__item-elements">
+
+            <div class="announcement__screen">
+                <img class="announcement__screen-img" src="img/announcement/big_content.jpg" alt="$">
+                <div class="announcement__frame">
+                    <p class="announcement__frame-txt">Since 1996</p>
+                </div>
+                <div class="announcement__title">
+                    <p class="announcement__title-txt">True. Fontanka. Underground. </p>
+                </div>
+            </div>
+
+            <div class="announcement__ads">
+                <div class="announcement__ads-item-txt">
+                    <button class="announcement__ads-txt" id="btn-ads-1"><p>БЛИЖАЙШИЕ</p></button>
+                    <button class="announcement__ads-txt announcement__ads-txt_change" id="btn-ads-2">СКОРО</button>
+                </div>
+
+                <div class="announcement__ads-row-one">
+                    <div class="announcement__ads-image">
+                        <img class="announcement__image" src="./img/announcement/slider_image_1.jpg" alt="img-1" id="img-ads-1">
+                    </div>
+                    <div class="announcement__ads-image">
+                        <img class="announcement__image" src="./img/announcement/slider_image_2.jpg" alt="" id="img-ads-2">
+                    </div>
+                </div>
+
+                <div class="announcement__ads-row-two">
+                    <div class="announcement__ads-image">
+                        <img class="announcement__image" src="./img/announcement/slider_image_3.png" alt="" id="img-ads-3">
+                    </div>
+                    <div class="announcement__ads-image">
+                        <img class="announcement__image" src="./img/announcement/slider_image_4.png" alt="" id="img-ads-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="top-menu">
+    <div class="container">
+        <div class="top-menu__elements">
+            <div class="title-section title-position">
+                <p class="title-section__txt">Top “Manhattan” menu</p>
+            </div>
+            <div class="heading-section heading-position">
+                <p class="heading-section__txt">Кухня</p>
+            </div>
+            <div class="top-menu__carousel">
+                <button class="top-menu__prev-btn" id="btn-prev">
+                    <img class="top-menu__btn-direction-img" src="./img/top-menu/prev-btn.svg" alt="prev-btn" id="btn-prev-img">
+                </button>
+                <div class="owl-carousel">
+                    <div class="top-menu__column">
+                        <div class="top-menu__dish">
+                            <div class="top-menu__column-image">
+                                <img class="top-menu__image" src="./img/top-menu/dish-1.svg" alt="img-1" id="img-ads-10">
+                            </div>
+                            <div class="top-menu__flex-item-column">
+                                <div class="top-menu__dish-items">
+                                    <div class="top-menu__name-dish">
+                                        <p class="top-menu__name">Amet donec.</p>
+                                    </div>
+                                    <button class="top-menu__dish-btn">
+                                        <div class="top-menu__dish-btn-border">
+                                            <p class="top-menu__dish-btn-border-txt">550 ₽</p>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="top-menu__weight-dish">
+                                    <p class="top-menu__weight">400 гр</p>
+                                </div>
+                                <div class="top-menu__description-dish">
+                                    <p class="top-menu__description">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="top-menu__dish">
+                            <div class="top-menu__column-image">
+                                <img class="top-menu__image" src="./img/top-menu/dish-2.svg" alt="img-1" id="img-ads-10">
+                            </div>
+                            <div class="top-menu__flex-item-column">
+                                <div class="top-menu__dish-items">
+                                    <div class="top-menu__name-dish">
+                                        <p class="top-menu__name">Amet donec.</p>
+                                    </div>
+                                    <button class="top-menu__dish-btn">
+                                        <div class="top-menu__dish-btn-border">
+                                            <p class="top-menu__dish-btn-border-txt">550 ₽</p>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="top-menu__weight-dish">
+                                    <p class="top-menu__weight">300 гр</p>
+                                </div>
+                                <div class="top-menu__description-dish">
+                                    <p class="top-menu__description">Pharetra morbi purus hendrerit risus vel consequat nunc, sed. Pharetra nulla imperdiet.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="top-menu__dish">
+                            <div class="top-menu__column-image">
+                                <img class="top-menu__image" src="./img/top-menu/dish-3.svg" alt="img-1" id="img-ads-10">
+                            </div>
+                            <div class="top-menu__flex-item-column">
+                                <div class="top-menu__dish-items">
+                                    <div class="top-menu__name-dish">
+                                        <p class="top-menu__name">Amet donec.</p>
+                                    </div>
+                                    <button class="top-menu__dish-btn">
+                                        <div class="top-menu__dish-btn-border">
+                                            <p class="top-menu__dish-btn-border-txt">550 ₽</p>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="top-menu__weight-dish">
+                                    <p class="top-menu__weight">100 гр</p>
+                                </div>
+                                <div class="top-menu__description-dish">
+                                    <p class="top-menu__description">In mauris, elit nisl sed. Nulla accumsan vestibulum sed velit sagittis quis accumsan.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="top-menu__dish">
+                            <div class="top-menu__column-image">
+                                <img class="top-menu__image" src="./img/top-menu/dish-4.svg" alt="img-1" id="img-ads-10">
+                            </div>
+                            <div class="top-menu__flex-item-column">
+                                <div class="top-menu__dish-items">
+                                    <div class="top-menu__name-dish">
+                                        <p class="top-menu__name">Amet donec.</p>
+                                    </div>
+                                    <button class="top-menu__dish-btn">
+                                        <div class="top-menu__dish-btn-border">
+                                            <p class="top-menu__dish-btn-border-txt">550 ₽</p>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="top-menu__weight-dish">
+                                    <p class="top-menu__weight">500 гр</p>
+                                </div>
+                                <div class="top-menu__description-dish">
+                                    <p class="top-menu__description">In cras pharetra aliquet laoreet. Lectus nisi ante felis quam pharetra in maecenas ut felis. </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="top-menu__column slide">
+                        <div class="top-menu__dish">
+                            <div class="top-menu__column-image">
+                                <img class="top-menu__image" src="./img/top-menu/dish-5.svg" alt="img-1" id="img-ads-10">
+                            </div>
+                            <div class="top-menu__flex-item-column">
+                                <div class="top-menu__dish-items">
+                                    <div class="top-menu__name-dish">
+                                        <p class="top-menu__name">Amet donec.</p>
+                                    </div>
+                                    <button class="top-menu__dish-btn">
+                                        <div class="top-menu__dish-btn-border">
+                                            <p class="top-menu__dish-btn-border-txt">550 ₽</p>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="top-menu__weight-dish">
+                                    <p class="top-menu__weight">200 гр</p>
+                                </div>
+                                <div class="top-menu__description-dish">
+                                    <p class="top-menu__description">Elit imperdiet faucibus euismod tortor risus volutpat molestie morbi sed. Porta ac eu.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-menu__dish">
+                            <div class="top-menu__column-image">
+                                <img class="top-menu__image" src="./img/top-menu/dish-6.svg" alt="img-1" id="img-ads-10">
+                            </div>
+                            <div class="top-menu__flex-item-column">
+                                <div class="top-menu__dish-items">
+                                    <div class="top-menu__name-dish">
+                                        <p class="top-menu__name">Amet donec.</p>
+                                    </div>
+                                    <button class="top-menu__dish-btn">
+                                        <div class="top-menu__dish-btn-border">
+                                            <p class="top-menu__dish-btn-border-txt">550 ₽</p>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="top-menu__weight-dish">
+                                    <p class="top-menu__weight">500 гр</p>
+                                </div>
+                                <div class="top-menu__description-dish">
+                                    <p class="top-menu__description">Leo in arcu in gravida vivamus scelerisque non. Euismod nec amet amet egestas nisl iaculis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-menu__dish">
+                            <div class="top-menu__column-image">
+                                <img class="top-menu__image" src="./img/top-menu/dish-7.svg" alt="img-1" id="img-ads-10">
+                            </div>
+                            <div class="top-menu__flex-item-column">
+                                <div class="top-menu__dish-items">
+                                    <div class="top-menu__name-dish">
+                                        <p class="top-menu__name">Amet donec.</p>
+                                    </div>
+                                    <button class="top-menu__dish-btn">
+                                        <div class="top-menu__dish-btn-border">
+                                            <p class="top-menu__dish-btn-border-txt">550 ₽</p>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="top-menu__weight-dish">
+                                    <p class="top-menu__weight">300 гр</p>
+                                </div>
+                                <div class="top-menu__description-dish">
+                                    <p class="top-menu__description">Duis quisque tristique nulla cursus justo, etiam viverra nulla cras. Consectetur eget augue.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-menu__dish">
+                            <div class="top-menu__column-image">
+                                <img class="top-menu__image" src="./img/top-menu/dish-8.svg" alt="img-1" id="img-ads-10">
+                            </div>
+                            <div class="top-menu__flex-item-column">
+                                <div class="top-menu__dish-items">
+                                    <div class="top-menu__name-dish">
+                                        <p class="top-menu__name">Amet donec.</p>
+                                    </div>
+                                    <button class="top-menu__dish-btn">
+                                        <div class="top-menu__dish-btn-border">
+                                            <p class="top-menu__dish-btn-border-txt">550 ₽</p>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="top-menu__weight-dish">
+                                    <p class="top-menu__weight">200 гр</p>
+                                </div>
+                                <div class="top-menu__description-dish">
+                                    <p class="top-menu__description">Integer dolor et sed tempus non. Adipiscing viverra in viverra quisque pretium. Commodo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="top-menu__next-btn" id="btn_next">
+                    <img class="top-menu__btn-direction-img" src="./img/top-menu/next-btn.svg" alt="next-btn" id="btn-next-img">
+                </button>
+            </div>
+            <button class="top-menu__btn-all-menu">
+                <div class="top-menu__border-btn-menu">
+                    <p class="top-menu__btn-all-txt">все меню</p>
+                </div>
+            </button>
+        </div>
+    </div>
+</section>
+<section class="events-tourists">
+    <div class="container">
+        <div class="events-tourists__elements">
+           <div class="events-tourists__events">
+               <div class="title-section title-position">
+                   <p class="title-section__txt">Top “Manhattan” events</p>
+               </div>
+               <div class="heading-section heading-position">
+                   <p class="heading-section__txt">Банкеты</p>
+               </div>
+               <div class="events-tourists__paragraphs">
+                   <div class="events-tourists__item-paragraph">
+                        <p class="events-tourists__txt">Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem viverra consequat.
+                            Tempus sed est interdum eget nisi, nec fames. Eget amet hac varius aliquam. Mattis egestas suspendisse convallis eu arcu et aliquet.</p>
+                   </div>
+                   <div class="events-tourists__item-paragraph">
+                        <p class="events-tourists__txt"> Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo
+                            sit posuere vulputate sed morbi. Donec gravida at turpis sed pulvinar. A nibh non consectetur morbi in arcu, in pellentesque mauris.</p>
+                   </div>
+                   <div class="events-tourists__item-paragraph">
+                        <p class="events-tourists__txt">Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam semper
+                            at id eleifend.</p>
+                   </div>
+               </div>
+               <button class="button btn-position">
+                   <div class="button__border">
+                       <p class="button__txt">ПОДРОБНЕЕ</p>
+                   </div>
+               </button>
+           </div>
+            <div class="events-tourists__screen-image">
+                <img class="events-tourists__image" src="./img/top-party/top-party-img.jpg" alt="">
+            </div>
+            <div class="events-tourists__tourists">
+                <div class="title-section title-position">
+                    <p class="title-section__txt">Top “Manhattan” tourists</p>
+                </div>
+                <div class="heading-section heading-position">
+                    <p class="heading-section__txt">Туристы</p>
+                </div>
+                <div class="events-tourists__paragraphs">
+                    <div class="events-tourists__item-paragraph">
+                        <p class="events-tourists__txt">Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem viverra consequat.
+                            Tempus sed est interdum eget nisi, nec fames. Eget amet hac varius aliquam. Mattis egestas suspendisse convallis eu arcu et aliquet.</p>
+                    </div>
+                    <div class="events-tourists__item-paragraph">
+                        <p class="events-tourists__txt"> Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo
+                            sit posuere vulputate sed morbi. Donec gravida at turpis sed pulvinar. A nibh non consectetur morbi in arcu, in pellentesque mauris.</p>
+                    </div>
+                    <div class="events-tourists__item-paragraph">
+                        <p class="events-tourists__txt">Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam semper
+                            at id eleifend.</p>
+                    </div>
+                </div>
+                <button class="button btn-position">
+                    <div class="button__border">
+                        <p class="button__txt">ПОДРОБНЕЕ</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="top-party">
+    <div class="container">
+        <div class="title-section title-position">
+            <p class="title-section__txt">Top “Manhattan” party</p>
+        </div>
+        <div class="heading-section heading-position">
+            <p class="heading-section__txt">Техрайдер</p>
+        </div>
+        <div class="top-party__techrider">
+            <div class="top-party__items">
+                <div class="top-party__equipment">
+                    <button class="top-party__equipment-btn">
+                        <div class="top-party__btn-elements">
+                            <p class="top-party__equipment-name">Loudspeakers</p>
+                            <div class="top-party__equipment-btn-img">
+                                <img class="top-party__btn-img" src="./img/top-party/btn-down.svg" alt="">
+                            </div>
+                        </div>
+                        <span class="top-party__equipment-txt">
+                            <ul class="top-party__ul">
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Top 600W x 2</li>
+                                </div>
+                                 <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Mid 600W x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Sub 1000W x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Front monitor Yamaha SM12V 300w x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Backside monitor Dynacord 500W x 2</li>
+                                </div>
+                            </ul>
+                        </span>
+                    </button>
+                    <button class="top-party__equipment-btn">
+                        <div class="top-party__btn-elements">
+                            <p class="top-party__equipment-name">Amplifier</p>
+                            <div class="top-party__equipment-btn-img">
+                                <img class="top-party__btn-img" src="./img/top-party/btn-down.svg" alt="">
+                            </div>
+                        </div>
+                        <span class="top-party__equipment-txt">
+                                <ul class="top-party__ul">
+                                    <div class="top-party__item-li">
+                                        <li class="top-party__li"> • Acoustic system BELL Top 600W x 2</li>
+                                    </div>
+                                     <div class="top-party__item-li">
+                                        <li class="top-party__li"> • Acoustic system BELL Mid 600W x 2</li>
+                                    </div>
+                                    <div class="top-party__item-li">
+                                        <li class="top-party__li"> • Acoustic system BELL Sub 1000W x 2</li>
+                                    </div>
+                                    <div class="top-party__item-li">
+                                        <li class="top-party__li"> • Front monitor Yamaha SM12V 300w x 2</li>
+                                    </div>
+                                    <div class="top-party__item-li">
+                                        <li class="top-party__li"> • Backside monitor Dynacord 500W x 2</li>
+                                    </div>
+                                </ul>
+                        </span>
+                    </button>
+                    <button class="top-party__equipment-btn">
+                        <div class="top-party__btn-elements">
+                            <p class="top-party__equipment-name">FOH</p>
+                            <div class="top-party__equipment-btn-img">
+                                <img class="top-party__btn-img" src="./img/top-party/btn-down.svg" alt="">
+                            </div>
+                        </div>
+                        <span class="top-party__equipment-txt">
+                            <ul class="top-party__ul">
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Top 600W x 2</li>
+                                </div>
+                                 <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Mid 600W x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Sub 1000W x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Front monitor Yamaha SM12V 300w x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Backside monitor Dynacord 500W x 2</li>
+                                </div>
+                            </ul>
+                        </span>
+                    </button>
+                    <button class="top-party__equipment-btn">
+                        <div class="top-party__btn-elements">
+                            <p class="top-party__equipment-name">Microphone set</p>
+                            <div class="top-party__equipment-btn-img">
+                                <img class="top-party__btn-img" src="./img/top-party/btn-down.svg" alt="">
+                            </div>
+                        </div>
+                        <span class="top-party__equipment-txt">
+                            <ul class="top-party__ul">
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Top 600W x 2</li>
+                                </div>
+                                 <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Mid 600W x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Sub 1000W x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Front monitor Yamaha SM12V 300w x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Backside monitor Dynacord 500W x 2</li>
+                                </div>
+                            </ul>
+                        </span>
+                    </button>
+                    <button class="top-party__equipment-btn">
+                        <div class="top-party__btn-elements">
+                            <p class="top-party__equipment-name">DJ equipment</p>
+                            <div class="top-party__equipment-btn-img">
+                                <img class="top-party__btn-img" src="./img/top-party/btn-down.svg" alt="">
+                            </div>
+                        </div>
+                        <span class="top-party__equipment-txt">
+                            <ul class="top-party__ul">
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Top 600W x 2</li>
+                                </div>
+                                 <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Mid 600W x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Sub 1000W x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Front monitor Yamaha SM12V 300w x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Backside monitor Dynacord 500W x 2</li>
+                                </div>
+                            </ul>
+                        </span>
+                    </button>
+                    <button class="top-party__equipment-btn">
+                        <div class="top-party__btn-elements">
+                            <p class="top-party__equipment-name">Loudspeakers</p>
+                            <div class="top-party__equipment-btn-img">
+                                <img class="top-party__btn-img" src="./img/top-party/btn-down.svg" alt="">
+                            </div>
+                        </div>
+                        <span class="top-party__equipment-txt">
+                            <ul class="top-party__ul">
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Top 600W x 2</li>
+                                </div>
+                                 <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Mid 600W x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Acoustic system BELL Sub 1000W x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Front monitor Yamaha SM12V 300w x 2</li>
+                                </div>
+                                <div class="top-party__item-li">
+                                    <li class="top-party__li"> • Backside monitor Dynacord 500W x 2</li>
+                                </div>
+                            </ul>
+                        </span>
+                    </button>
+                </div>
+                <div class="top-party__sound-engineers">
+                    <div class="top-party__sound-engineers-title">
+                        <p class="top-party__sound-title">Звукорежиссеры</p>
+                        <p class="top-party__sound-title">клуба МАНХЭТТЕН</p>
+                    </div>
+                    <div class="top-party__producers">
+                        <div class="top-party__sound-producer">
+                            <div class="top-party_producer-img">
+                                <img class="top-party__img" src="./img/top-party2/one-producer.png" alt="">
+                            </div>
+                            <div class="top-party__producer-names">
+                                <p class="top-party__sound-producer-name">Изотов</p>
+                                <p class="top-party__sound-producer-name">Константи</p>
+                            </div>
+                            <div class="top-party__social-links">
+                                <button class="top-party__links">
+                                    <img class="top-party__links-img" src="./img/top-party2/vk.svg" alt="">
+                                </button>
+                                <button class="top-party__links">
+                                    <img class="top-party__links-img" src="./img/top-party2/telegramm.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="top-party__sound-producer">
+                            <div class="top-party_producer-img">
+                                <img class="top-party__img" src="./img/top-party2/two-producer.png" alt="">
+                            </div>
+                            <div class="top-party__producer-names">
+                                <p class="top-party__sound-producer-name">Давид</p>
+                                <p class="top-party__sound-producer-name">Хозиев</p>
+                            </div>
+                            <div class="top-party__social-links">
+                                <button class="top-party__links">
+                                    <img class="top-party__links-img" src="./img/top-party2/vk.svg" alt="">
+                                </button>
+                                <button class="top-party__links">
+                                    <img class="top-party__links-img" src="./img/top-party2/telegramm.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contacts">
+    <div class="container">
+        <div class="title-section title-position">
+            <p class="title-section__txt">Top “Manhattan” place</p>
+        </div>
+        <div class="heading-section heading-position">
+            <p class="heading-section__txt">контакты</p>
+        </div>
+        <div class="contacts__item-elements">
+            <div class="contacts__board">
+                <div class="contacts__address">
+                    <div class="contacts__title">
+                        <p>Адрес</p>
+                    </div>
+                    <div class="contacts__txt">
+                        <p>Набережная реки Фонтанки, 90 (вход в арке с белыми колоннами)</p>
+                    </div>
+                </div>
+                <div class="contacts__telephone">
+                    <div class="contacts__title">
+                        <p>телефон</p>
+                    </div>
+                    <div class="contacts__txt">
+                        <p>+7 (812) 713-1945</p>
+                    </div>
+                </div>
+                <div class="contacts__operating-mode contacts__txt-margin-bottom">
+                    <div class="contacts__title">
+                        <p>режим работы</p>
+                    </div>
+                    <div class="contacts__txt ">
+                        <p>Ежедневно с 12:00 до 06:00</p>
+                    </div>
+                </div>
+                <hr class="hr-line">
+                <div class="contacts__director contacts__txt-margin-top">
+                    <div class="contacts__title">
+                        <p>директор</p>
+                    </div>
+                    <div class="contacts__txt">
+                        <p>Лидия Эмильевна, +7(921) 963-55-50</p>
+                    </div>
+                </div>
+                <div class="contacts__art-director">
+                    <div class="contacts__title">
+                        <p>арт-директор</p>
+                    </div>
+                    <div class="contacts__txt">
+                        <p>Илиния Ионашко, +7(981) 989-43-30</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts__map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad74c228bd05ef65cdbc1db97ec2f5935dc4ab88eaf70d574a9ac5cf31a2c8129&amp;source=constructor" width="850" height="650" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <hr class="hr-line">
+        <div class="footer__elements">
+            <div class="footer__copyright">
+                <p>Copyright © 2022. Все права защищены.</p>
+            </div>
+            <div class="footer__development">
+                <p>Разработано d-e-n.ru</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
